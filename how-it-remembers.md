@@ -79,4 +79,3 @@ This is the “long-term memory” effect: it keeps you from re-learning the sam
 - It does not auto-capture new chats unless you index them.
 
 Think of it like: “grep + semantic search across your past AI work, with clean output.”
-
