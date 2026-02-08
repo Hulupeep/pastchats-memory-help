@@ -12,6 +12,28 @@ PastChats Memory fixes that by giving your agent **long-term memory**:
 2. It stores keyword index + vectors in SQLite.
 3. Before a new task, it recalls what worked and what failed.
 
+## What “memory” looks like (example)
+
+You run:
+
+```bash
+pastchats-memory recall --db .swarm/prompt_memory.db --query "webhook retry idempotent"
+```
+
+You get:
+
+```text
+# Memory Recall
+Query: webhook retry idempotent
+
+## Memory 1 [0.190] - my_project
+Prompt: build retries with idempotency keys
+What worked: use bounded exponential backoff and store idempotency key state
+Source: /path/to/chat.md (turn 0)
+```
+
+This is designed to be pasted into your agent context before coding.
+
 ## Why use it
 
 - Fewer repeated mistakes
@@ -31,6 +53,7 @@ PastChats Memory fixes that by giving your agent **long-term memory**:
 1. Copy/paste the [Vibe Coder Cheat Sheet](cheat-sheet.md)
 2. Run the exact commands in [Quick Start](getting-started.md)
 3. Use [Search & Recall](search-and-recall.md)
+4. Read [How It Remembers (Simple)](how-it-remembers.md)
 
 ## Next: common patterns
 

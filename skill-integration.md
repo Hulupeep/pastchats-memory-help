@@ -1,6 +1,6 @@
 ---
 title: Agent Skill Integration
-nav_order: 9
+nav_order: 10
 ---
 
 PastChats Memory includes a reusable skill:

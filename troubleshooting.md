@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-nav_order: 12
+nav_order: 13
 ---
 
 ## "command not found: pastchats-memory"

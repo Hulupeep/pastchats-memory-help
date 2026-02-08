@@ -36,3 +36,13 @@ The system deduplicates by content hash, so re-running index is normal.
 - Run indexing once a day (or after big work sessions)
 - Index only folders that actually contain chat exports/history
 - Keep one DB per personal workflow unless you need strict separation
+
+## Why it “remembers”
+
+It only remembers what you index.
+
+If you want it to remember new chats, you re-run:
+
+```bash
+pastchats-memory index --db .swarm/prompt_memory.db --input <the folder with your updated history>
+```
