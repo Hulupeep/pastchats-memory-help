@@ -79,4 +79,3 @@ pastchats-memory stats --db .swarm/prompt_memory.db
 ```
 
 If prompt count isn’t increasing over time, your index automation isn’t pointed at the right folder.
-
