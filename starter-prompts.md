@@ -1,6 +1,6 @@
 ---
 title: Starter Prompts (Claude Code)
-nav_order: 9
+nav_order: 11
 ---
 
 Copy-paste these.

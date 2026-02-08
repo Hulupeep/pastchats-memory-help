@@ -57,6 +57,7 @@ This is designed to be pasted into your agent context before coding.
 3. Use [Search & Recall](search-and-recall.md)
 4. Read [Auto-Capture](auto-capture.md) if you want it to stay updated automatically
 5. Read [How It Remembers (Simple)](how-it-remembers.md)
+6. Read [Workflow While You Work](working-workflow.md) for the practical loop
 
 ## Next: common patterns
 

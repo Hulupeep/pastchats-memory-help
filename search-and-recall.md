@@ -1,6 +1,6 @@
 ---
 title: Search and Recall
-nav_order: 8
+nav_order: 10
 ---
 
 ## Search (debug / exploration)

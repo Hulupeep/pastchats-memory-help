@@ -1,6 +1,6 @@
 ---
 title: Local Docs Preview
-nav_order: 18
+nav_order: 20
 ---
 
 If you want to preview docs before pushing:

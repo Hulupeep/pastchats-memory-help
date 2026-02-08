@@ -1,6 +1,6 @@
 ---
 title: Common Workflows
-nav_order: 10
+nav_order: 12
 ---
 
 Copy/paste these queries and patterns.

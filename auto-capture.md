@@ -13,6 +13,18 @@ Right now it works like this:
 
 The “automatic” part comes from **automating the index command**.
 
+## What you should automate (and what you should not)
+
+Automate this:
+
+- `index` (periodically)
+
+Do not automate this aggressively:
+
+- indexing every few seconds while typing
+
+The best pattern is “keep DB fresh in the background, recall once per task”.
+
 ## Option A (recommended): Re-index on a schedule
 
 This is the simplest and most reliable approach.

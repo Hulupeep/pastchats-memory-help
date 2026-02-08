@@ -1,6 +1,6 @@
 ---
 title: Agent Skill Integration
-nav_order: 11
+nav_order: 13
 ---
 
 PastChats Memory includes a reusable skill:
@@ -10,6 +10,12 @@ PastChats Memory includes a reusable skill:
 ## Goal
 
 Force a memory lookup before implementation starts.
+
+## What this is (plain English)
+
+- The “skill” is instructions for your agent to run `recall` before it starts coding.
+- It does not automatically log chats.
+- It makes “check memory first” the default behavior.
 
 ## Simple pattern
 
