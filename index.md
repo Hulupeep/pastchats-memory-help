@@ -28,9 +28,9 @@ PastChats Memory fixes that by giving your agent **long-term memory**:
 
 ## Start in 5 minutes
 
-1. Open [Installation](installation)
-2. Run the exact commands in [Quick Start](getting-started)
-3. Use [Search & Recall](search-and-recall)
+1. Open [Installation](installation.md)
+2. Run the exact commands in [Quick Start](getting-started.md)
+3. Use [Search & Recall](search-and-recall.md)
 
 ## Who this is for
 
