@@ -1,6 +1,6 @@
 ---
 title: sqlite-vec Setup
-nav_order: 11
+nav_order: 12
 ---
 
 PastChats Memory works without `sqlite-vec`, but it is faster at scale when enabled.

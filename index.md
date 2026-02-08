@@ -12,6 +12,8 @@ PastChats Memory fixes that by giving your agent **long-term memory**:
 2. It stores keyword index + vectors in SQLite.
 3. Before a new task, it recalls what worked and what failed.
 
+Important: it does not auto-log your chats by itself. You index files (or automate indexing).
+
 ## What “memory” looks like (example)
 
 You run:
@@ -53,7 +55,8 @@ This is designed to be pasted into your agent context before coding.
 1. Copy/paste the [Vibe Coder Cheat Sheet](cheat-sheet.md)
 2. Run the exact commands in [Quick Start](getting-started.md)
 3. Use [Search & Recall](search-and-recall.md)
-4. Read [How It Remembers (Simple)](how-it-remembers.md)
+4. Read [Auto-Capture](auto-capture.md) if you want it to stay updated automatically
+5. Read [How It Remembers (Simple)](how-it-remembers.md)
 
 ## Next: common patterns
 

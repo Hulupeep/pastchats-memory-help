@@ -1,6 +1,6 @@
 ---
 title: How It Remembers (Simple)
-nav_order: 6
+nav_order: 7
 ---
 
 This tool does not “magically learn your brain”. It does something simpler and more reliable:
@@ -30,6 +30,14 @@ pastchats-memory index --db .swarm/prompt_memory.db --input ~/projects
 ```
 
 If it’s not in the indexed folders, it won’t be remembered.
+
+## Does it auto-log my chats?
+
+Not by itself.
+
+PastChats Memory does **not** intercept chat messages. It only indexes files you point it at.
+
+To make it automatic, set up scheduled indexing (see: [Auto-Capture](auto-capture.md)).
 
 ## How it becomes searchable
 
