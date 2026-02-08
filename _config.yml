@@ -1,0 +1,21 @@
+title: PastChats Memory Help
+description: Dead-simple docs for indexing and recalling prompt history with hybrid search.
+url: https://hulupeep.github.io
+baseurl: /pastchats-memory-help
+
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  "PastChats Memory (Code Repo)":
+    - "https://github.com/Hulupeep/pastchats-memory"
+
+nav_external_links:
+  - title: GitHub Issues
+    url: https://github.com/Hulupeep/pastchats-memory/issues
+
+color_scheme: light
