@@ -3,8 +3,6 @@ title: Architecture
 nav_order: 12
 ---
 
-# Architecture
-
 ## Components
 
 - `parsers.py` parses raw history files into normalized turns.

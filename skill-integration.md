@@ -3,8 +3,6 @@ title: Agent Skill Integration
 nav_order: 7
 ---
 
-# Agent Skill Integration
-
 PastChats Memory includes a reusable skill:
 
 - `skills/prompt-memory-recall/SKILL.md`

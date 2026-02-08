@@ -3,8 +3,6 @@ title: Troubleshooting
 nav_order: 10
 ---
 
-# Troubleshooting
-
 ## "command not found: pastchats-memory"
 
 Activate your virtualenv first:

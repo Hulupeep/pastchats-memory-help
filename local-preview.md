@@ -3,8 +3,6 @@ title: Local Docs Preview
 nav_order: 14
 ---
 
-# Local Docs Preview
-
 If you want to preview docs before pushing:
 
 ```bash

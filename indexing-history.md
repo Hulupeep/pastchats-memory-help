@@ -3,8 +3,6 @@ title: Indexing History
 nav_order: 4
 ---
 
-# Indexing History
-
 ## Supported file types
 
 - `.json`

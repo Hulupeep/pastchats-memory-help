@@ -3,8 +3,6 @@ title: Search and Recall
 nav_order: 5
 ---
 
-# Search and Recall
-
 ## Search (debug / exploration)
 
 ```bash

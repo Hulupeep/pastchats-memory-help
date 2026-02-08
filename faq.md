@@ -3,8 +3,6 @@ title: FAQ
 nav_order: 11
 ---
 
-# FAQ
-
 ## Is this cloud memory?
 
 No. Default setup is local SQLite on your machine.

@@ -3,8 +3,6 @@ title: Quick Start
 nav_order: 2
 ---
 
-# Quick Start
-
 Use this if you want the shortest path.
 
 ## 1. Install

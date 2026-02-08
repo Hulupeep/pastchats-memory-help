@@ -3,8 +3,6 @@ title: Installation
 nav_order: 3
 ---
 
-# Installation
-
 ## Requirements
 
 - Python 3.10+

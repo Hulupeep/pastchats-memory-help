@@ -4,8 +4,6 @@ nav_order: 1
 description: What this is and why you should use it.
 ---
 
-# PastChats Memory
-
 If you use AI coding assistants, you probably repeat the same mistakes across projects.
 
 PastChats Memory fixes that by giving your agent **long-term memory**:

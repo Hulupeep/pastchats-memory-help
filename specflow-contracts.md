@@ -3,8 +3,6 @@ title: SpecFlow Compliance
 nav_order: 9
 ---
 
-# SpecFlow Compliance
-
 This project ships with SpecFlow-style contracts and stories.
 
 ## Contract files

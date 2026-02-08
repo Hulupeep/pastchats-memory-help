@@ -3,8 +3,6 @@ title: GitHub Pages Setup
 nav_order: 13
 ---
 
-# GitHub Pages Setup
-
 If Pages is not enabled yet:
 
 1. Open repo Settings

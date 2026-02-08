@@ -3,8 +3,6 @@ title: Starter Prompts (Claude Code)
 nav_order: 6
 ---
 
-# Starter Prompts (Claude Code)
-
 Copy-paste these.
 
 ## 1) Default: recall before coding
