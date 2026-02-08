@@ -1,6 +1,6 @@
 ---
 title: SpecFlow Compliance
-nav_order: 9
+nav_order: 11
 ---
 
 This project ships with SpecFlow-style contracts and stories.

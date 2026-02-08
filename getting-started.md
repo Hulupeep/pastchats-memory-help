@@ -1,6 +1,6 @@
 ---
 title: Quick Start
-nav_order: 2
+nav_order: 3
 ---
 
 Use this if you want the shortest path.

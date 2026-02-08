@@ -28,9 +28,13 @@ PastChats Memory fixes that by giving your agent **long-term memory**:
 
 ## Start in 5 minutes
 
-1. Open [Installation](installation.md)
+1. Copy/paste the [Vibe Coder Cheat Sheet](cheat-sheet.md)
 2. Run the exact commands in [Quick Start](getting-started.md)
 3. Use [Search & Recall](search-and-recall.md)
+
+## Next: common patterns
+
+If you like recipes, go straight to [Common Workflows](workflows.md).
 
 ## Who this is for
 

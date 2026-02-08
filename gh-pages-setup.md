@@ -1,6 +1,6 @@
 ---
 title: GitHub Pages Setup
-nav_order: 13
+nav_order: 15
 ---
 
 If Pages is not enabled yet:
