@@ -1,6 +1,6 @@
 ---
 title: sqlite-vec Setup
-nav_order: 7
+nav_order: 8
 ---
 
 # sqlite-vec Setup

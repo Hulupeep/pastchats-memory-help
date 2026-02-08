@@ -1,6 +1,6 @@
 ---
 title: Agent Skill Integration
-nav_order: 6
+nav_order: 7
 ---
 
 # Agent Skill Integration
