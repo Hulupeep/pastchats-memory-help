@@ -58,6 +58,7 @@ This is designed to be pasted into your agent context before coding.
 4. Read [Auto-Capture](auto-capture.md) if you want it to stay updated automatically
 5. Read [How It Remembers (Simple)](how-it-remembers.md)
 6. Read [Workflow While You Work](working-workflow.md) for the practical loop
+7. If you use Claude Code, set up [Claude Code Hooks](claude-code-hooks.md)
 
 ## Next: common patterns
 
