@@ -1,9 +1,11 @@
 ---
 title: SpecFlow Compliance
-nav_order: 15
+nav_order: 16
 ---
 
 This project ships with SpecFlow-style contracts and stories.
+
+Also read: [Specflow vs Memory (What’s Different)](specflow-vs-memory.md)
 
 ## Contract files
 
