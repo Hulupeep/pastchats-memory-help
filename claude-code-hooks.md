@@ -10,6 +10,11 @@ You will get:
 - automatic memory recall injected when you submit a prompt
 - automatic capture of Claude's final answer into your memory DB
 
+By default, injection is high-signal and not spammy:
+
+- it injects once per Claude session (so it does not slow you down)
+- it prefers memories that include a prior prompt plus a "what worked" answer
+
 ## How it works
 
 Claude Code hooks run a command and pass JSON on stdin.
@@ -102,10 +107,30 @@ Add:
 
 ## Performance notes (so it doesn't slow you down)
 
-- This runs recall once per prompt submit, and stores one row per stop.
+- By default this injects once per session, and stores one row per stop.
 - Use local embeddings (default) for offline speed.
 - Keep `--limit 3`.
 - If you have a huge DB and it feels slow, enable sqlite-vec later.
+
+## Tuning
+
+### Inject once per session (default)
+
+```bash
+pastchats-memory hook-user-prompt-submit --db ~/.claude/prompt_memory.db --limit 3 --policy once-per-session
+```
+
+### Inject at most every 15 minutes (cooldown)
+
+```bash
+pastchats-memory hook-user-prompt-submit --db ~/.claude/prompt_memory.db --limit 3 --policy cooldown --cooldown-seconds 900
+```
+
+### Ignore tiny prompts
+
+```bash
+pastchats-memory hook-user-prompt-submit --db ~/.claude/prompt_memory.db --min-chars 40
+```
 
 ## If you want true MCP usage
 
